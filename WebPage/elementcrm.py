@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-from Include.research.WebPage.basepage import BasePage
+from Include.WebPage.basepage import BasePage
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import *
 from selenium import webdriver

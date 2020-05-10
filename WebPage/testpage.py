@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*- 
-from Include.research.WebPage.basepage import BasePage
-from Include.research.WebPage.elementcrm import *
-from Include.research.Base.helper import Configparser
+from Include.WebPage.basepage import BasePage
+from Include.WebPage.elementcrm import *
+from Include.Base.helper import Configparser
 from selenium.webdriver.support.select import Select
 import time,pytest
 from functools import wraps

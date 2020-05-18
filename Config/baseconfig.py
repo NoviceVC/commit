@@ -1,6 +1,6 @@
 from functools import wraps
 import time,os
-from Include.Base.helper import PyMysql
+from Include.commit.Base.helper import PyMysql
 
 class LogMain(object):
     def __call__(self, function):
